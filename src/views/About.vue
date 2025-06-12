@@ -52,7 +52,7 @@
             <a href="" target="_blank">
                 <img src="../assets/gmail.png" alt="">
             </a>
-            <a href="" target="_blank">
+            <a href="https://github.com/DanhVo67/Calendar" target="_blank">
                 <img src="../assets/github.png" alt="">
             </a>
           </div>
