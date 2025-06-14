@@ -150,16 +150,16 @@ const eventCount = rnd(days, days + 20)
 
        
         // Thêm sự kiện từ Firestore vào newEvents
-        eventList.forEach(event => {
-            newEvents.push({
-                title: event.title, 
-                start: new Date(new Date().getFullYear(), parseInt(event.startM) - 1, parseInt(event.startD)), // Tạo đối tượng ngày từ dữ liệu Firestore
-                end:  new Date(new Date().getFullYear(), parseInt(event.endM) - 1, parseInt(event.endD)), // Tạo đối tượng ngày từ dữ liệu Firestore
-                color: 'green',
-                allDay: true
-            });
-        });
- 
+        // eventList.forEach(event => {
+        //     newEvents.push({
+        //         title: event.title, 
+        //         start: new Date(new Date().getFullYear(), parseInt(event.startM) - 1, parseInt(event.startD)), // Tạo đối tượng ngày từ dữ liệu Firestore
+        //         end:  new Date(new Date().getFullYear(), parseInt(event.endM) - 1, parseInt(event.endD)), // Tạo đối tượng ngày từ dữ liệu Firestore
+        //         color: 'green',
+        //         allDay: true
+        //     });
+        // });
+
 newEvents.push({
 title: 'International New Year',
 start: new Date(new Date().getFullYear(), 11, 31),
